@@ -1,7 +1,10 @@
 # thetayloredman/DevEnv-Install
 
 # node.js
-curl "https://nodejs.org/dist/latest/node-${VERSION:-$(wget -qO- https://nodejs.org/dist/latest/ | sed -nE 's|.*>node-(.*)\.pkg</a>.*|\1|p')}.pkg" > "$HOME/Downloads/node-latest.pkg" && sudo installer -store -pkg "$HOME/Downloads/node-latest.pkg" -target "/"
+curl -sL https://deb.nodesource.com/setup_14.x -o nodesource_setup.sh
+bash nodesource_setup.sh
+sudo apt-get install nodejs
+sudo apt-get install npm
 
 # add npm stuff
 npm i -g n;
