@@ -17,3 +17,21 @@ chmod +x ./install.sh
 Node Version Manager (nvm) installs NodeJS locally, not system wide.
 Only your user will have access to NodeJS unless other users also install
 nvm.
+
+## What packages are installed?
+
+- [**n**](#n)
+- **typescript**
+- **prettier**
+- **babel**
+- **babel-eslint**
+- **eslint**
+- **jest**
+- **pm2**
+- **jsdoc**
+- **codecov**
+- **browserify**
+
+### n
+
+[`n` on NPM](https://npmjs.com/package/n)
