@@ -18,10 +18,10 @@ Node Version Manager (nvm) installs NodeJS locally, not system wide.
 Only your user will have access to NodeJS unless other users also install
 nvm.
 
-## What packages are installed?
+## What packages are installed? (Globally)
 
 - [**n**](#n)
-- **typescript**
+- [**typescript**](#typescript)
 - **prettier**
 - **babel**
 - **babel-eslint**
@@ -35,3 +35,12 @@ nvm.
 ### n
 
 [`n` on NPM](https://npmjs.com/package/n)
+
+**n** is a simple NPM package for managing Node.js versions.
+
+### typescript
+
+[`typescript` on NPM](https://npmjs.com/package/typescript)
+
+**typescript** is a transpiled programming language built on JavaScript to implement type-safety into the language.
+
