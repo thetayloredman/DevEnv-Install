@@ -22,7 +22,7 @@ nvm.
 
 - [**n**](#n)
 - [**typescript**](#typescript)
-- **prettier**
+- [**prettier**](#prettier)
 - **babel**
 - **babel-eslint**
 - **eslint**
@@ -44,3 +44,14 @@ nvm.
 
 **typescript** is a transpiled programming language built on JavaScript to implement type-safety into the language.
 
+### prettier
+
+[`prettier` on NPM](https://npmjs.com/package/prettier)
+
+**prettier** is an opinionated code formatter that *completely* formats your code from scratch.
+
+Prettier begins by tokenizing your JavaScript and making an AST with it, then it prints that AST to your style guidelines.
+
+### \[wip\]
+
+The rest is a Work In Progress.
