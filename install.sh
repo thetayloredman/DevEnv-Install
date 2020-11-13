@@ -1,12 +1,17 @@
+#!/usr/bin/env bash
 # thetayloredman/DevEnv-Install
 
-# node.js
-curl -sL https://deb.nodesource.com/setup_14.x -o nodesource_setup.sh
-bash nodesource_setup.sh
-sudo apt-get install nodejs
-sudo apt-get install npm
+# nvm
+cd $HOME/Downloads
+wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.0/install.sh
+mv install.sh nvm-install.sh
+./nvm-install.sh
 
-# add npm stuff
+# NodeJS
+nvm install node
+npm up -g npm
+
+# Common NodeJS development packages
 npm i -g n;
 npm i -g typescript;
 npm i -g prettier;
@@ -19,5 +24,5 @@ npm i -g jsdoc;
 npm i -g codecov;
 npm i -g browserify;
 
-echo "Finished.";
-echo "You should restart your system.";
+echo "Finished"
+echo "Restart your terminal session to use nodejs and npm."
