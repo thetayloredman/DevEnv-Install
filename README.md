@@ -1,19 +1,22 @@
 # DevEnv-Install
-Install all common NodeJS development libraries for any system with a Bash shell (OS X, *NIX, etc.)
+Install common programming languages
 
-## Running
-
-To run and install my DevEnv, clone this repo and run 
+## Installer
+To install all available formulae (scripts for languages), run:
 
 ```bash
-
-chmod +x ./install.sh
-./install.sh
-
+./bootstrap.sh
 ```
 
-## Why not sudo?
+You can also go into the scripts directory and install individual
+programs using this syntax:
 
-Node Version Manager (nvm) installs NodeJS locally, not system wide.
-Only your user will have access to NodeJS unless other users also install
-nvm.
+```bash
+./{name}.sh
+```
+
+## Where's sudo?
+
+These scripts install language __version managers__, not the languages
+themselves. This allows the programs to be installed the user's home directory,
+thus not requiring root privileges.
