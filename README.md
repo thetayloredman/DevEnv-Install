@@ -23,4 +23,5 @@ thus not requiring root privileges.
 
 ## Version Manager Instructions
 [Node Version Manager](https://github.com/nvm-sh/nvm#usage)
+<br/>
 [Pyenv](https://github.com/pyenv/pyenv/blob/master/COMMANDS.md)
